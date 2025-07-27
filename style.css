@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(238, 217, 177);
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 800;
+}
+.rowmenu{
+    display: flex;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    gap: 88px;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+   font-size: 16px;
+   font-weight: 400;
+   color: black;
+}
+
+.btn1{
+    width: 130px;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 700;
+    background-color: #FB982F;
+    border-radius: 8px;
+    border: none;
+    margin-left: 20px;
+}
+
+.btn2{
+    width: 130px;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    margin-left: 20px;
+}
+
+
+.card{
+    display: flex;
+    margin-top: 85px;
+}
+.title{
+font-size: 36px;
+font-weight: 700;
+margin-top: -10px;
+}
+.text{
+ font-size: 16px;
+ font-weight: 500;
+ margin-top: 80px;
+ 
+}
+.btn3{
+width: 195px;
+border-radius: 40px;
+border:none;
+background-color: #FA8305;
+padding: 15px;
+font-size: 16px;
+font-weight: 500;
+margin-top: 100px;
+}
